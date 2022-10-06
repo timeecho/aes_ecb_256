@@ -41,7 +41,6 @@ public class ecb {
         // ==============================================
 
         // 逆向解密操作：
-        // String rawData = "g/NbEHUQEKasfpWXAdVxiWJf4wXf22u+ZsNHxlx4vXIM2x/1WOL1NC0EABop915PfKKKrBy37LLSEpnXKC4xu6uKHYQD/Tk/JJl1ZpUPFyNVemopU++N1rC8fX7Vo3eJiQ6YdKQcuKgg7V2aaDXjhTP0zXSkvhK8UtnmZtd3xW6ZF32cTBwMb+pnItmh0XGqtOdqmJasP6XzLSE9v+3TuA==";
         String originalData = analyzeString(privateKey, postData);
         System.out.println(originalData);
     }
